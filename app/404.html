@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Wash Help">
+    <meta name="application-name" content="Wash Help">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body data-page="404">
+    
+    <main>
+
+        <div class="top-line section">
+            <div class="container">
+                <div class="top-line__contact">
+                    <div class="top-line__burger" data-activates="nav-mobile"></div>
+                    <div class="top-line__contact-item icon-location"><span>г. Санкт-петербург<br> Мучной переулок, 3</span></div>
+                    <div class="top-line__contact-item icon-clock"><span>ПН-ВС: c 9 до 20</span></div>
+                    <div class="top-line__contact-item icon-phone"><span><a href="tel:+7(965)8570700">+7 (965) 8570700</a></span></div>
+                    <button class="top-line__btn btn">Мы позвоним</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <nav id="nav-mobile" class="nav-mobile side-nav">
+            <div class="nav-mobile__close"></div>
+            <ul class="nav-mobile__list">
+                <li class="nav-mobile__item"><a href="">Главная</a></li>
+                <li class="nav-mobile__item"><a href="">О нас</a></li>
+                <li class="nav-mobile__item"><a href="">Услуги и цены</a></li>
+                <li class="nav-mobile__item"><a href="">Гарантии</a></li>
+                <li class="nav-mobile__item"><a href="">Отывы</a></li>
+                <li class="nav-mobile__item"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+
+
+
+        
+
+
+
+        <div class="block-404 section">
+            <div class="container">
+                <div class="block-404__section-header">
+                    <div class="block-404__h2 h2">404</div>
+                    <div class="block-404__h3 h3">Запрошенная вами страница не найдена</div>
+                </div>
+                <a class="block-404__btn btn" href="">Вернуться на главную</a>
+            </div>
+        </div>
+
+        
+
+
+
+        
+    </main>
+
+
+
+    <footer>
+        
+        
+        <div class="menu section">
+            <div class="container">
+                <nav class="menu__sec-nav">
+                    <ul class="menu__sec-nav-list">
+                        <li class="menu__sec-nav-item">
+                            <a href="">Диагностика</a>
+                        </li>
+                        <li class="menu__sec-nav-item">
+                            <a href="">Ремонт</a>
+                        </li>
+                        <li class="menu__sec-nav-item">
+                            <a href="">Подключение</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu__main-nav">
+                    <ul class="menu__main-nav-list">
+                        <li class="menu__main-nav-item">
+                            <a href="">Главная</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">О нас</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Услуги и цены</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Гарантии</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Отывы</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    	
+    	<div class="bottom-section section">
+            <div class="container">
+                <div class="bottom-section__contact">
+                    <div class="bottom-section__contact-item icon-location"><span>г. Санкт-петербург<br> Мучной переулок, 3</span></div>
+                    <div class="bottom-section__contact-item icon-mail-alt"><span>info@service.com</span></div>
+                    <div class="bottom-section__contact-item icon-phone"><span><a href="tel:+7(965)8570700">+7 (965) 8570700</a></span></div>
+                    <div class="bottom-section__social">
+                        <a class="bottom-section__social-item icon-facebook" href=""></a>
+                        <a class="bottom-section__social-item icon-vkontakte" href=""></a>
+                        <a class="bottom-section__social-item icon-instagram" href=""></a>
+                    </div>
+                    <div class="bottom-section__rights">&copy; Все права защищены<br> Service Group 2017</div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/scripts.min.js"></script>
+
+
+
+    <script>
+    // google map
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 13,
+            center: {lat: 59.9484886, lng: 30.320524},
+            mapTypeControl: false,
+            fullscreenControlOptions: {
+                position: google.maps.ControlPosition.RIGHT_BOTTOM
+            }
+        });
+
+
+        // position options
+        var positions =[
+            {
+                title: 'Невский район',
+                pos: {lat: 59.9302872, lng: 30.4131945}
+            },
+            {
+                title: 'Петроградский район',
+                pos: {lat: 59.966879, lng: 30.313282}
+            },
+            {
+                title: 'Фрунзенский район',
+                pos: {lat: 59.908480, lng: 30.296428}
+            }
+        ];
+
+        // create markers
+        positions.forEach(function(position) {
+          var marker = new google.maps.Marker({
+            position: position.pos,
+            icon: '../img/map-marker.png',
+            map: map,
+            title: position.title
+          });
+        });
+    }
+    </script>   
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    async defer></script>
+
+</body>
+</html>

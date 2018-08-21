@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Wash Help">
+    <meta name="application-name" content="Wash Help">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<!-- <body data-page="inner"> -->
+<!-- <body data-page="404"> -->
+<body data-page="index">
+<!-- <body> -->
+    
+    <main>
+
+        <div class="top-line section">
+            <div class="container">
+                <div class="top-line__contact">
+                    <div class="top-line__burger" data-activates="nav-mobile"></div>
+                    <div class="top-line__contact-item icon-location"><span>г. Санкт-петербург<br> Мучной переулок 3</span></div>
+                    <div class="top-line__contact-item icon-clock"><span>ПН-ВС: c 9 до 20</span></div>
+                    <div class="top-line__contact-item icon-phone"><span><a href="tel:+7(965)8570700">+7 (965) 8570700</a></span></div>
+                    <button class="top-line__btn btn" data-target="modal-submit">Мы позвоним</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <nav id="nav-mobile" class="nav-mobile side-nav">
+            <div class="nav-mobile__close"></div>
+            <ul class="nav-mobile__list collapsible collapsible-accordion">
+                <li class="nav-mobile__item">
+                    <a class="collapsible-header">Ремонтируем</a>
+                    <ul class="collapsible-body">
+                        <li class="active"><a href="">Стиральные машины</a></li>
+                        <li><a href="">Посудомойки</a></li>
+                        <li><a href="">Варочные панели</a></li>
+                        <li><a href="">Котлы</a></li>
+                    </ul>
+                </li>
+                <li class="nav-mobile__item"><a href="">О нас</a></li>
+                <li class="nav-mobile__item"><a href="">Услуги и цены</a></li>
+                <li class="nav-mobile__item"><a href="">Гарантии</a></li>
+                <li class="nav-mobile__item"><a href="">Отывы</a></li>
+                <li class="nav-mobile__item"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div class="main-header section" style="background-image: url('image/main-header-bg/boiler.jpg');">
+            <div class="container">
+                <a class="main-header__logo" href="">
+                    <img src="img/logo.png" alt="">
+                    <!-- <img class="hide-on-med-and-up" src="img/logo-s.png" alt=""> -->
+                </a>
+                <nav class="main-header__main-nav">
+                    <ul class="main-header__main-nav-list">
+                        <li class="main-header__main-nav-item">
+                            <a class="dropdown-button" data-activates="dropdown1">Ремонтируем</a>
+                            <ul id="dropdown1" class="dropdown-content">
+                                <li class="active"><a href="">Стиральные машины</a></li>
+                                <li><a href="">Посудомойки</a></li>
+                                <li><a href="">Варочные панели</a></li>
+                                <li><a href="">Котлы</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-header__main-nav-item">
+                            <a href="">О нас</a>
+                        </li>
+                        <li class="main-header__main-nav-item">
+                            <a href="">Гарантии</a>
+                        </li>
+                        <li class="main-header__main-nav-item">
+                            <a href="">Услуги и цены</a>
+                        </li>
+                        <li class="main-header__main-nav-item">
+                            <a href="">Отзывы</a>
+                        </li>
+                        <li class="main-header__main-nav-item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main-header__intro">
+                    <div class="main-header__intro-section-header">
+                        <h1 class="main-header__intro-h1 h2">Service group</h1>
+                        <div class="main-header__intro-h3 h3">Качественный ремонт стиральных машин</div>
+                    </div>
+                    <div class="main-header__intro-text">Сервисный центр «Питерский БытСервис» предлагает срочный ремонт бытовой техники в Санкт-Петербурге и Ленинградской области. Наша команда профессионалов работает ежедневно и готова приехать по Вашей заявке уже сегодня. Вам не придётся долго ждать.</div>
+                </div>
+                <div class="main-header__request">
+                    <!-- <div class="main-header__request-h2">Отремонтируем стиральную машину в день обращения</div> -->
+                    <div class="main-header__request-h2">Услуга в день обращения</div>
+                    <div class="main-header__request-condition">
+                        <div class="main-header__request-price">Стоимость от <span>1000</span> руб</div>
+                        <div class="main-header__request-time">Приедем через <span>50</span> мин</div>
+                    </div>
+                    <div class="main-header__request-form">
+                        <input class="inp" name="tel" type="text" placeholder="Телефон" maxlength="50">
+                        <div class="checkbox-wrap">
+                            <input id="main-header__request-form-checkbox" class="checkbox" name="agreement" type="checkbox">
+                            <label for="main-header__request-form-checkbox">
+                                <span></span>
+                                Вы соглашаетесь с обработкой Ваших персональных данных</label>
+                        </div>
+                        <button class="btn submit-btn" type="button">Вызвать</button>
+                    </div>
+                    <ul class="main-header__promo">
+                        <li class="main-header__promo-item">Выезд - бесплатно</li>
+                        <li class="main-header__promo-item">Диагностика - бесплато</li>
+                        <li class="main-header__promo-item">Гарантия - до 2 ле</li>
+                        <li class="main-header__promo-item">Время ремонта – от 15 минут до 4 часов</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="main-text section">
+            <div class="container" style="background-image: url('image/main-text-bg/wash.jpg');">
+                <article>
+                    <header class="main-text__section-header">
+                        <h2 class="main-text__h2 h2">РЕМОНТ СТИРАЛЬНОЙ МАШИНЫ INDESIT</h2>
+                        <!-- <div class="main-text__h3 h3">Предлагает вам срочный ремонт</div> -->
+                    </header>
+                    <!-- <h1>Service group</h1>
+                    <h2>Service group</h2>
+
+                    <h3>Service group</h3>
+                    <h4>Service group</h4>
+                    <h5>Service group</h5>
+                    <h6>Service group</h6> -->
+                    <p>Благодаря многолетнему опыту и профессионализму наши специалисты в самые короткие сроки устранят неисправность Вашей стиральной машины оперативно и качественно. Вы смоте решить проблему уже сегодня, если обратитесь за помощью к нам. Вам гарантированы:</p>
+                    <p>Наши мастера произведут диагностику, ремонт или замену деталей на оригинальные новые, выполнят профилактические работы, чтобы техника работала без сбоев продолжительное время.</p>
+                    <ul>
+                        <li>Поэтапная диагностика работы деталей и узлов бытового прибора</li>
+                        <li>Срочный ремонт и устранение поломок любой степени сложности</li>
+                        <li>Профессиональная консультация и ответы на вопросы по эксплуатации и уходу за бытовым прибором</li>
+                    </ul>
+                    <p>После проведения итогового тестирования бытового прибора клиент получает гарантийный талон, который является ещё одним подтверждением того, что мы отвечаем за качество наших услуг и предлагаем высокий уровень сервиса. Также по мнению клиентов, мы являемся одним из лидеров на рынке услуг благодаря нашим преимуществам работы.</p>
+                    <table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th style="text-align: center;" valign="top" width="213">
+<p>Проблема с посудомойкой</p>
+</th>
+<th style="text-align: center;" valign="top" width="213">
+<p>Причина поломки</p>
+</th>
+<th style="text-align: center;" valign="top" width="213">
+<p>Способы избавления от проблемы</p>
+</th>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Не включается</p>
+</td>
+<td valign="top" width="213">
+<p>Если с напряжением проблем нет, то произошла механическая поломка: вышел из строя программатор либо повреждён провод, перегорели обмотки электродвигателя</p>
+</td>
+<td valign="top" width="213">
+<p>Проверить напряжение, розетку, посудомойку, найти сломанную деталь, заменить</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Включается, но не моет посуду</p>
+</td>
+<td valign="top" width="213">
+<p>Замыкание в двигателе/помпе</p>
+</td>
+<td valign="top" width="213">
+<p>Проверить работоспособность двигателя, помпы, устранить поломку</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Не набирает воду</p>
+</td>
+<td valign="top" width="213">
+<p>Засорился фильтр, сломался насос/впускной клапан</p>
+</td>
+<td valign="top" width="213">
+<p>Чистится фильтр, меняются износившиеся детали</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Не сливает воду</p>
+</td>
+<td valign="top" width="213">
+<p>Забит сливной насос, канализация, дренажные трубы</p>
+</td>
+<td valign="top" width="213">
+<p>Требуется срочный ремонт посудомойки, чистится фильтр, насос</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Протекает</p>
+</td>
+<td valign="top" width="213">
+<p>Нарушена герметичность: сломан замок дверцы, сбилась балансировка приводящей пружины</p>
+</td>
+<td valign="top" width="213">
+<p>Уплотнитель вставить в пазы, проверить шланги на засор</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Посуда плохо помыта</p>
+</td>
+<td valign="top" width="213">
+<p>Проблема с ТЭНом, таймером либо термореле</p>
+</td>
+<td valign="top" width="213">
+<p>Проверить бойлер, если посудомойка работает от него. Продиагностировать фильтр, устранить засор.</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Посуда после мойки влажная</p>
+</td>
+<td valign="top" width="213">
+<p>Сломался вентилятор/мотор</p>
+</td>
+<td valign="top" width="213">
+<p>Поменять вентилятор/мотор</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="213">
+<p>Нехарактерные шумы при работе</p>
+</td>
+<td valign="top" width="213">
+<p>Вышли из строя подшипники, крыльчатки, основной либо сливной насосы</p>
+</td>
+<td valign="top" width="213">
+<p>Попробовать всё, начиная от перестановки посуды и заканчивая разборкой насоса</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+                </article>
+            </div>
+        </div>
+
+
+
+        <div class="all-review section">
+            <div class="container">
+                <article>
+                    <header class="all-review__section-header">
+                        <h2 class="all-review__h1 h2">Отзывы наших клиентов</h2>
+                    </header>
+                    <p>Нам очень важно знать Ваше мнение! Здесь Вы можете оставить свои отзывы о качестве обслуживания, а также произведенных работах.</p>
+                    <p>Будем благодарны, если Вы поделитесь своими пожеланиями, предложениями и замечаниями. Уверяем, что не оставим ни одно из них без внимания и сделаем все, чтобы Вам с нами было приятно и комфортно!</p>
+                </article>
+                <button class="all-review__btn btn">Добавить отзыв</button>
+
+            </div>
+        </div>
+
+
+
+        <div class="single-block section">
+            <div class="container">
+                <article>
+                    <header class="single-block__section-header">
+                        <h1 class="single-block__h1 h2">О компании</h1>
+                    </header>
+                    <h1>Service group</h1>
+                    <h2>Service group</h2>
+                    <h3>Service group</h3>
+                    <h4>Service group</h4>
+                    <h5>Service group</h5>
+                    <h6>Service group</h6>
+                    <p>Благодаря многолетнему опыту и профессионализму наши специалисты в самые короткие сроки устранят неисправность Вашей стиральной машины оперативно и качественно. Вы смоте решить проблему уже сегодня, если обратитесь за помощью к нам. Вам гарантированы:</p>
+                    <p>Наши мастера произведут диагностику, ремонт или замену деталей на оригинальные новые, выполнят профилактические работы, чтобы техника работала без сбоев продолжительное время.</p>
+                    <ul>
+                        <li>Поэтапная диагностика работы деталей и узлов бытового прибора</li>
+                        <li>Срочный ремонт и устранение поломок любой степени сложности</li>
+                        <li>Профессиональная консультация и ответы на вопросы по эксплуатации и уходу за бытовым прибором</li>
+                    </ul>
+                    <p>После проведения итогового тестирования бытового прибора клиент получает гарантийный талон, который является ещё одним подтверждением того, что мы отвечаем за качество наших услуг и предлагаем высокий уровень сервиса. Также по мнению клиентов, мы являемся одним из лидеров на рынке услуг благодаря нашим преимуществам работы.</p>
+                </article>
+            </div>
+        </div>
+
+
+
+        <div class="contact section">
+            <div class="container">
+                <div class="contact__section-header">
+                    <div class="contact__h2 h2">Контакты</div>
+                </div>
+                <div class="contact__city-wrap">
+                    <div class="contact__city">г. Санкт-Петербург</div>
+                </div>
+                <div class="contact__photo">
+                    <figure class="contact__photo-item">
+                        <img src="image/office-1.jpg" alt="">
+                    </figure>
+                    <figure class="contact__photo-item">
+                        <img src="image/office-1.jpg" alt="">
+                    </figure>
+                    <figure class="contact__photo-item">
+                        <img src="image/office-1.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="contact__inner-section-header">
+                    <div class="contact__h3">Адрес Единого центра</div>
+                    <div class="contact__h4">Мучной переулок 3, м.Садовая</div>
+                </div>
+                <div class="contact__inner-section-header">
+                    <div class="contact__h3">График работы сервисного центра</div>
+                    <div class="contact__h5">ПН-ВС  c 9:00 до 21:00</div>
+                    <div class="contact__h4">Без обеда и выходных</div>
+                </div>
+                <div class="contact__inner-section-header">
+                    <div class="contact__h3">Телефон</div>
+                    <a class="contact__h5" href="tel:+7(965)8570700">+7 (965) 857-07-00</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  -->
+        <div class="advantage section" style="background-image: url('image/advantage-bg/wash.jpg');">
+            <div class="container">
+                <div class="advantage__section-header">
+                    <div class="advantage__h2 h2">Наши преимущетсва</div>
+                    <div class="advantage__h3 h3">Благодаря которым мы лучшие на рынке</div>
+                </div>
+                <div class="advantage__list clearfix" style="background-image: url('image/advantage-bg-2/wash.png');">
+                <!-- <div class="advantage__list clearfix" style="background-image: url('image/advantage-bg-2/hob.png');"> -->
+                <!-- <div class="advantage__list clearfix" style="background-image: url('image/advantage-bg-2/dishwash.png');"> -->
+                <!-- <div class="advantage__list clearfix" style="background-image: url('image/advantage-bg-2/boiler.png');"> -->
+                    <div class="advantage__item clearfix">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Контроль качества</div>
+                        <div class="advantage__item-text">Мы чиним стиральные машины  с 2005 года.<br> Это гарантия большого опыта мастеров<br> и лояльности наших клиентов</div>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Мастера своего дела</div>
+                        <div class="advantage__item-text">У нас работают только проверенные<br> люди, на которых можно положиться,<br> и выполняющих работу на совесть</div>
+                    </div>
+                    <div class="advantage__item clearfix">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Гарантия на ремонт</div>
+                        <div class="advantage__item-text">После итогового тестирования мы<br> выдаем гарантийный талон на все услуги</div>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Быстрое прибытие</div>
+                        <div class="advantage__item-text">Наши филиалы расположены<br> в 4 точках Петербурга</div>
+                    </div>
+                    <div class="advantage__item clearfix">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Оригинальные запчасти</div>
+                        <div class="advantage__item-text">Используем только оригинальные или<br> идентичные им детали с собственного склада,<br> мы обеспечиваем долгую работу Вашей машинки</div>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__item-icon"></div>
+                        <div class="advantage__item-h4">Бесплатная диагностика</div>
+                        <div class="advantage__item-text">При заказе через онлайн-сервис мы<br> предоставляем бесплатный вызов и диагностику</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="services section">
+            <div class="container">
+                <div class="services__section-header">
+                    <div class="services__h2 h2">Прайс-лист</div>
+                </div>
+                <div class="services__content">
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header">Стиральные машины</div>
+                            <div class="collapsible-body">
+                                <table class="services__table">
+                                    <tr>
+                                        <td><a href="">Не нагревает воду</a></td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td><a href="">Замена ТЭН</a></td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="">Ремонт электронного модуля управления</a></td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr>
+                                        <td>Не нагревает воду</td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr>
+                                        <td>Не нагревает воду</td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr></tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">Посудомойки</div>
+                            <div class="collapsible-body">
+                                <table class="services__table">
+                                    <tr>
+                                        <td><a href="">Не нагревает воду</a></td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td><a href="">Замена ТЭН</a></td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="">Ремонт электронного модуля управления</a></td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr>
+                                        <td>Не нагревает воду</td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr>
+                                        <td>Не нагревает воду</td>
+                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Замена ТЭН</td>
+                                                    <td>900 р</td>
+                                                    <td><button class="services__table-btn btn" data-target="modal-submit">Вызвать мастера</button></td>
+                                                </tr>
+
+                                            </table>
+                                        </td>                        
+                                    </tr>
+                                    <tr></tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- <table class="services__table">
+                    <tr>
+                        <td>Замена ТЭН</td>
+                        <td>900 р</td>
+                        <td><button class="services__table-btn btn">Вызвать мастера</button></td>
+                    </tr>
+                    <tr>
+                        <td>Замена ТЭН</td>
+                        <td>900 р</td>
+                        <td><button class="services__table-btn btn">Вызвать мастера</button></td>
+                    </tr>
+                    <tr>
+                        <td>Замена ТЭН</td>
+                        <td>900 р</td>
+                        <td><button class="services__table-btn btn">Вызвать мастера</button></td>
+                    </tr>
+                </table> -->
+                <div class="services__request">
+                    <div class="services__request-h3">Не нашли марку вашей стиральной машины?</div>
+                    <div class="services__request-form">
+                       <input class="inp" name="brand" type="text" placeholder="Марка машины" maxlength="50">
+                       <input class="inp" name="tel" type="text" placeholder="Телефон" maxlength="50">
+                       <button class="btn submit-btn" type="button">Узнать стоимость</button>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+
+
+        <div class="repair section">
+            <div class="container">
+                <div class="repair__section-header">
+                    <div class="repair__h2 h2">Ремонтируем любые поломки</div>
+                    <div class="repair__h3 h3">Мы можем похвастаться одними из самых низких цен на рынке среди мастерских</div>
+                </div>
+                <ul class="repair__list">
+                    <li class="repair__item">
+                        <a href="" class="repair__item-ref">
+                            <div class="repair__item-price-wr">
+                                <div class="repair__item-price">от<br> 950 р</div>
+                            </div>
+                            <div class="repair__item-h">Не нагревает воду <span class="price-m">- от 950 р</span></div>
+                            <div class="repair__item-text">Если вы обнаружили протечку, мы легко устраним ее, заменив испорченные комплектующие</div>
+                        </a>
+                        <button class="repair__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                    </li>
+                    <li class="repair__item">
+                        <a href="" class="repair__item-ref">
+                            <div class="repair__item-price-wr">
+                                <div class="repair__item-price">от<br> 1000 р</div>
+                            </div>
+                            <div class="repair__item-h">Течет <span class="price-m">- от 1000 р</span></div>
+                            <div class="repair__item-text">Если вы обнаружили протечку, мы легко устраним ее, заменив испорченные комплектующие</div>
+                        </a>
+                        <button class="repair__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                    </li>
+                    <li class="repair__item">
+                        <a href="" class="repair__item-ref">
+                            <div class="repair__item-price-wr">
+                                <div class="repair__item-price">от<br> 800 р</div>
+                            </div>
+                            <div class="repair__item-h">Не включается <span class="price-m">- от 800 р</span></div>
+                            <div class="repair__item-text">Если вы обнаружили протечку, мы легко устраним ее, заменив испорченные комплектующие</div>
+                        </a>
+                        <button class="repair__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                    </li>
+                    <li class="repair__item">
+                        <a href="" class="repair__item-ref">
+                            <div class="repair__item-price-wr">
+                                <div class="repair__item-price">от<br> 2400 р</div>
+                            </div>
+                            <div class="repair__item-h">Не смывается порошок <span class="price-m">- от 2400 р</span></div>
+                            <div class="repair__item-text">Если вы обнаружили протечку, мы легко устраним ее, заменив испорченные комплектующие</div>
+                        </a>
+                        <button class="repair__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                    </li>
+                    <li class="repair__item">
+                        <a href="" class="repair__item-ref">
+                            <div class="repair__item-price-wr">
+                                <div class="repair__item-price">от<br> 1000 р</div>
+                            </div>
+                            <div class="repair__item-h">Выбивает пробки <span class="price-m">- от 1000 р</span></div>
+                            <div class="repair__item-text">Если вы обнаружили протечку, мы легко устраним ее, заменив испорченные комплектующие</div>
+                        </a>
+                        <button class="repair__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                    </li>
+                </ul>
+                <div class="repair__slick"></div>
+                <ul class="repair__note">
+                    <li class="repair__note-item">* После проведения диагностики, мастер сообщит Вам итоговую стоимость ремонта</li>
+                    <li class="repair__note-item">* Если нет необходимости в новых комплектующих, мастер после диагностики сразу устранит неполадку</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="brand section" style="background-image: url('image/brand-bg/wash.jpg');">
+            <div class="container">
+                <div class="brand__section-header">
+                    <div class="brand__h2 h2">Бренды</div>
+                    <div class="brand__h3 h3">Мы ремонтируем многие известные бренды</div>
+                </div>
+                <div class="brand__content">
+                    <ul class="brand__list">
+                        <li class="brand__item"><a href="">Samsung Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                        <li class="brand__item"><a href="">Samsung</a></li>
+                    </ul>
+                    <div class="brand__slick"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="scheme section">
+            <div class="container">
+                <div class="scheme__section-header">
+                    <div class="scheme__h2 h2">Как мы работаем</div>
+                    <div class="scheme__h3 h3">Ремонт стеральных машин проходит в несколько этапов</div>
+                </div>
+                <ul class="scheme__list">
+                    <li class="scheme__item">
+                        <div class="scheme__item-img" style="background-image: url('image/scheme/boiler/1.jpg');"></div>
+                        <div class="scheme__item-content">
+                            <div class="scheme__item-number">1</div>
+                            <div class="scheme__item-text"><span>Этап 1:</span> Обнаружили поломку?<br> Сделайте вызов мастера  на дом, позвонив нам по номеру или оставив заявку на сайте</div>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__item-img" style="background-image: url('image/scheme/boiler/2.jpg');"></div>
+                        <div class="scheme__item-content">
+                            <div class="scheme__item-number">2</div>
+                            <div class="scheme__item-text"><span>Этап 2:</span> Мастер приходит на дом и производит бесплатную диагностику, после чего сообщает вам точную стоимость работы</div>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__item-img" style="background-image: url('image/scheme/boiler/3.jpg');"></div>
+                        <div class="scheme__item-content">
+                            <div class="scheme__item-number">3</div>
+                            <div class="scheme__item-text"><span>Этап 3:</span> Мастер выписывает гарантийный талон. После этого вы производите оплату и расписываетесь в договоре </div>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__item-img" style="background-image: url('image/scheme/boiler/4.jpg');"></div>
+                        <div class="scheme__item-content">
+                            <div class="scheme__item-number">4</div>
+                            <div class="scheme__item-text"><span>Этап 4:</span> Обнаружили поломку? Сделайте вызов мастера  на дом, позвонив нам по номеру или оставив заявку на сайте</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="review section">
+            <div class="container">
+                <div class="review__section-header">
+                    <div class="review__h2 h2">Отзывы клиентов</div>
+                    <div class="review__h3 h3">Довольные и правдивые отзывы клиентов нашей компании</div>
+                </div>
+                <ul class="review__list">
+                    <li class="review__item">
+                        <div class="review__item-text">1Очень довольна работой мастера Дениса. Приехал в оговоренное время, был очень доброжелателен и вежлив, все сделал быстро и качественно, отвечал на все мои "любопытки" по устройству стиральной машинки, дал рекомендации по уходу за машинкой, побольше бы таких людей и опытных специалистов.</div>
+                        <div class="review__item-author">Ксения Михайлова</div>
+                    </li>
+                    <li class="review__item">
+                        <div class="review__item-text">2Очень довольна работой мастера Дениса. Приехал в оговоренное время, был очень доброжелателен и вежлив, все сделал быстро и качественно, отвечал на все мои "любопытки" по устройству стиральной машинки, дал рекомендации по уходу за машинкой, побольше бы таких людей и опытных специалистов.</div>
+                        <div class="review__item-author">Ксения Михайлова</div>
+                    </li>
+                    <li class="review__item">
+                        <div class="review__item-text">3Очень довольна работой мастера Дениса. Приехал в оговоренное время, был очень доброжелателен и вежлив, все сделал быстро и качественно, отвечал на все мои "любопытки" по устройству стиральной машинки, дал рекомендации по уходу за машинкой, побольше бы таких людей и опытных специалистов.</div>
+                        <div class="review__item-author">Ксения Михайлова</div>
+                    </li>
+                    <li class="review__item">
+                        <div class="review__item-text">4Очень довольна работой мастера Дениса. Приехал в оговоренное время, был очень доброжелателен и вежлив, все сделал быстро и качественно, отвечал на все мои "любопытки" по устройству стиральной машинки, дал рекомендации по уходу за машинкой, побольше бы таких людей и опытных специалистов.</div>
+                        <div class="review__item-author">Ксения Михайлова</div>
+                    </li>
+                    <li class="review__item">
+                        <div class="review__item-text">5Очень довольна работой мастера Дениса. Приехал в оговоренное время, был очень доброжелателен и вежлив, все сделал быстро и качественно, отвечал на все мои "любопытки" по устройству стиральной машинки, дал рекомендации по уходу за машинкой, побольше бы таких людей и опытных специалистов.</div>
+                        <div class="review__item-author">Ксения Михайлова</div>
+                    </li>
+                 </ul>  
+                <div class="review__slick"></div>
+                <a class="review__btn btn">Смотреть все отзывы</a>
+            </div>
+        </div>
+
+
+
+        <div class="master section">
+            <div class="container">
+                <div class="master__section-header">
+                    <div class="master__h2 h2">Ремонтируем любые поломки</div>
+                    <div class="master__h3 h3">Мы можем похвастаться одними из самых низких цен на рынке среди мастерских</div>
+                </div>
+                <ul class="master__list">
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                    <li class="master__item">
+                        <figure class="master__photo">
+                            <img src="image/master-1.jpg" alt="">
+                        </figure>
+                        <button class="master__item-btn btn" data-target="modal-submit">Вызвать мастера</button>
+                        <div class="master__item-name">Иван Aнтонов</div>
+                        <div class="master__item-spec">Ремонт стиральных машин</div>
+                        <div class="master__item-exp">Стаж: 9 лет</div>
+                    </li>
+                </ul>
+                <div class="master__slick"></div>
+            </div>
+        </div>
+
+
+
+        <div class="guarant section">
+            <div class="container">
+                <article>
+                    <h3>МЫ гарантируем вам качественный ремонт</h3>
+                    <div class="guarant__item">
+                        <p>С нами всё проще и цивильно: мусора не останется, а восстановление работоспособности вашей бытовой техники мы проводим аккуратно и со знанием дела.</p>
+                        <h3>Это надолго?</h3>
+                    </div>
+                    <div class="guarant__item">
+                        <p>Поиск неисправностей и выявление слабых мест вашей бытовой техники займет минимум времени. Такой оперативный подход к выполнению своей работы и вынесению вердикта - причины поломки - обусловлен:</p>
+                        <p>Умением осуществлять ремонт стиральных машин (в СПб) самых разнообразных моделей, вплоть до самой сложной и дорогостоящей техники: Ardo, Candy, Electrolux, Gorenje, Hansa, Miele, Zanussi. Наличием огромного опыта в этой сфере: за 11 лет практики изучили все слабые места стиральных машин разных торговых брендов: Ariston, Beko, Bosch, Indesit, LG, Samsung, Siemens, Whirpool, Атлант.</p>
+                    </div>
+                    <div class="guarant__item">
+                        <p>Каждая модель этой бытовой техники обладает своими особенностями. Соответственно, для выполнения всех операций требуются не только обширные знания в этой области, но и проверенные методы и технологии, а также наличие оригинальных запчастей и надлежащего инструментария для ее починки.</p>
+                        <ul>
+                            <li>Цены на ремонт указаны без стоимости деталей</li>
+                            <li>При приеме заказа диспетчер называет стартовую стоимость за ремонт</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <div class="info section">
+            <div class="container">
+                <div class="info__section-header">
+                    <div class="info__h2 h2">Будем у вас через час</div>
+                    <div class="info__h3 h3">Работаем во всех районах города</div>
+                </div>
+                <div class="info__content">
+                    <div id="map" class="info__map"></div>
+                    <div class="info__list-wrap">
+                        <div class="container">
+                            <ul class="info__list">
+                                <li class="info__item">
+                                    <a href="">Невский район</a></li>
+                                <li class="info__item">
+                                    <a href="">Петроградский район</a></li>
+                                <li class="info__item">
+                                    <a href="">Центральный район</a></li>
+                                <li class="info__item">
+                                    <a href="">Красногвардейский район</a></li>
+                                <li class="info__item">
+                                    <a href="">Выборгский район</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__slick"></div>
+            </div>
+        </div>
+
+
+
+        <div class="dir-req section">
+            <div class="container">
+                <div class="dir-req__director clearfix">
+                    <div class="dir-req__director-wrap">
+                        <figure class="dir-req__directior-photo">
+                            <img src="image/director.jpg" alt="">
+                        </figure>
+                        <div class="dir-req__director-content">
+                            <div class="dir-req__director-section-header">
+                                <div class="dir-req__director-h2">Никита Михайлович Иванов</div>
+                                <div class="dir-req__director-h3">Директор  Wash Help</div>
+                            </div>
+                            <div class="dir-req__director-text">
+                                <p>Уважаемые клиенты и партнеры! Большое внимание мы уделяем вопросу обучения и повышения профессионализма сотрудников.</p>
+                                <p>Главным для нас вопросом остается качество выполняемых работ. Их сдача в срок и Ваши положительные отзывы. В течение всего времени работы главным правилом для нас является выполнение своих обязательств данных клиентам и партнерам.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dir-req__request clearfix">
+                    <div class="dir-req__request-wrap">
+                        <div class="dir-req__request-h2">Вызвать мастера</div>
+                        <div class="dir-req__request-h3">Закажите звонок и мы в течении 15 минут свяжемся с Вами для уточнения деталей вызова</div>
+                        <div class="dir-req__request-form">
+                            <input class="inp" name="name" type="text" placeholder="Ваше имя" maxlength="50">
+                            <input class="inp" name="email" type="text" placeholder="Ваш email" maxlength="50">
+                            <input class="inp" name="tel" type="text" placeholder="Номер телефон" maxlength="50">
+                            <div class="checkbox-wrap">
+                                <input id="dir-req__request-form-checkbox" class="checkbox" name="agreement" type="checkbox">
+                                <label for="dir-req__request-form-checkbox">
+                                    <span></span>
+                                    Нажимая на кнопку Вы соглашаетесь с политикой обработки персональных данных
+                                </label>
+                            </div>
+                            <button class="btn submit-btn" type="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        
+        <div class="menu section">
+            <div class="container">
+                <div class="menu__back-to-top"></div>
+                <nav class="menu__sec-nav">
+                    <ul class="menu__sec-nav-list">
+                        <li class="menu__sec-nav-item">
+                            <a href="">Диагностика</a>
+                        </li>
+                        <li class="menu__sec-nav-item">
+                            <a href="">Ремонт</a>
+                        </li>
+                        <li class="menu__sec-nav-item">
+                            <a href="">Подключение</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu__main-nav">
+                    <ul class="menu__main-nav-list">
+                        <li class="menu__main-nav-item">
+                            <a href="">Главная</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">О нас</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Услуги и цены</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Гарантии</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Отывы</a>
+                        </li>
+                        <li class="menu__main-nav-item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        
+        <div class="bottom-section section">
+            <div class="container">
+                <div class="bottom-section__contact">
+                    <div class="bottom-section__contact-item icon-location"><span>г. Санкт-петербург<br> Мучной переулок, 3</span></div>
+                    <div class="bottom-section__contact-item icon-mail-alt"><span>info@service.com</span></div>
+                    <div class="bottom-section__contact-item icon-phone"><span><a href="tel:+7(965)8570700">+7 (965) 8570700</a></span></div>
+                    <div class="bottom-section__social">
+                        <a class="bottom-section__social-item icon-facebook" href=""></a>
+                        <a class="bottom-section__social-item icon-vkontakte" href=""></a>
+                        <a class="bottom-section__social-item icon-instagram" href=""></a>
+                    </div>
+                    <div class="bottom-section__rights">&copy; Все права защищены<br> Service Group 2017</div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Modal pop-up -->
+    <div id="modal-submit" class="modal modal-submit">
+        <div class="modal-submit__h2">Услуга в день обращения</div>
+        <form class="modal-submit__form">
+            <input class="inp" name="tel" type="text" placeholder="Телефон" maxlength="50">
+            <div class="checkbox-wrap">
+                <input id="modal-submit__form-checkbox" class="checkbox" name="agreement" type="checkbox" checked>
+                <label for="modal-submit__form-checkbox">
+                    <span></span>
+                    Вы соглашаетесь с обработкой Ваших персональных данных</label>
+            </div>
+            <button class="btn submit-btn" type="button">Вызвать</button>
+        </form>
+        <div class="modal-submit__close"></div>
+    </div>
+
+
+
+    <script src="js/scripts.min.js"></script>
+
+
+
+    <!-- google map -->
+    <script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 13,
+            center: {lat: 59.9484886, lng: 30.320524},
+            mapTypeControl: false,
+            fullscreenControlOptions: {
+                position: google.maps.ControlPosition.RIGHT_BOTTOM
+            }
+        });
+
+
+        // position options
+        var positions =[
+            {
+                title: 'Невский район',
+                pos: {lat: 59.9302872, lng: 30.4131945}
+            },
+            {
+                title: 'Петроградский район',
+                pos: {lat: 59.966879, lng: 30.313282}
+            },
+            {
+                title: 'Фрунзенский район',
+                pos: {lat: 59.908480, lng: 30.296428}
+            }
+        ];
+
+        // create markers
+        positions.forEach(function(position) {
+          var marker = new google.maps.Marker({
+            position: position.pos,
+            icon: '../img/map-marker.png',
+            map: map,
+            title: position.title
+          });
+        });
+    }
+    </script>   
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    async defer></script>
+
+</body>
+</html>
